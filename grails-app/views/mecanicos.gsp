@@ -12,10 +12,6 @@
         <title>Sample title</title>
     </head>
     <body>
-    <!--    <h1>Sample line</h1><form name="logout" method="POST" action="${createLink(controller:'logout') }">
-
-            
-            <input type="submit" value="logout"></form>  -->
-        <g:link controller='logout'>Logout</g:link>
+        <h1>Sample line</h1>
     </body>
 </html>

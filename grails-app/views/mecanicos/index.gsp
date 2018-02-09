@@ -13,10 +13,10 @@
     </head>
     <body>
         <h1>Welcome to ${usu}</h1>  
-<form name="logout" method="POST" action="${createLink(controller:'logout') }">
-		<input type="submit" value="logout"></form>    
+<!--<form name="logout" method="POST" action="${createLink(controller:'logout') }">
+		<input type="submit" value="logout"></form>  -->  
        
-       
+        <g:link controller='logout'>Logout</g:link>
       
     
         </body>
