@@ -16,10 +16,10 @@ package grails.plugin.springsecurity
 
 import javax.servlet.http.HttpServletResponse
 
-import org.springframework.security.access.annotation.Secured
+
 import org.springframework.security.web.RedirectStrategy
 
-@Secured('permitAll')
+
 class LogoutController {
 
 	/** Dependency injection for RedirectStrategy. */

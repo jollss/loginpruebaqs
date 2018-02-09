@@ -84,7 +84,7 @@
 		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div id="status" role="complementary">
 			<h1>Application Status</h1>
-			<ul>
+                      <ul>
 				<li>App version: <g:meta name="app.version"/></li>
 				<li>Grails version: <g:meta name="app.grails.version"/></li>
 				<li>Groovy version: ${GroovySystem.getVersion()}</li>
@@ -102,7 +102,7 @@
 				</g:each>
 			</ul>
 		</div>
-                asdasdasdas
+                
 		<div id="page-body" role="main">
 			<h1>Welcome to Grails</h1>
 			<p>Congratulations, you have successfully started your first Grails application! At the moment
@@ -118,6 +118,7 @@
 					</g:each>
 				</ul>
 			</div>
+      
 		</div>
 	</body>
 </html>
